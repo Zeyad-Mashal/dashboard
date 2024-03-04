@@ -1,0 +1,48 @@
+.wrapper {
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.left {
+    background-color: #eaeaea;
+    height:100%
+}
+
+.remember {
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    align-items:center;
+    justify-content:center;
+    margin-top: 1.5em
+}
+
+.productName {
+    margin-top: .5em
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between
+}
+
+@media screen and (max-width: 900px){
+    .left {
+        display: none
+    }
+}
+
+.link {
+    margin:0 8px;
+    text-decoration: none
+}

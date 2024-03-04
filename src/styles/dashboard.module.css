@@ -1,0 +1,79 @@
+.card {
+    border-radius: .5em;
+    height: 100%;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.chartCard {
+    border-radius: .5em;
+    height: 315px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.chartHeader {
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+
+.cardTitle {
+    font-weight: medium;
+    text-transform: uppercase;
+}
+
+
+
+.cardTop {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.trendingUp {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.trendingUpIcon {
+    height: 32px;
+    width: 32px;
+    color: rgba(106, 215, 24, 1);
+    background-color: rgba(106, 215, 25, .2);
+    border-radius: 50%;
+    font-weight: bold;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.trendingDownIcon {
+    height: 32px;
+    width: 32px;
+    color: rgba(255, 44, 29, 1);
+    background-color: rgba(255, 44, 29, .2);
+    border-radius: 50%;
+    font-weight: bold;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.trendingNum{
+    font-size: .9em;
+    font-weight: medium
+}
+
+.period {
+    font-weight: bold;
+    font-size: .8em
+}
