@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  width: fit-content;
+  height: fit-content;
+}
+.profit,
+.productsSold,
+.things {
+  background-color: #fff;
+  padding: 2rem;
+  margin: 2rem;
+  border-radius: 10px;
+  box-shadow: 6px 6px 6px #aaaaaa;
+}
+.profit h1 {
+  margin-top: -10px;
+  margin-bottom: 1rem;
+}
+.profit p,
+.productsSold p,
+.things p {
+  font-size: 22px;
+  font-weight: bold;
+  color: #03cb03;
+}
+.productsSold h2,
+.things h2 {
+  margin-bottom: 1rem;
+}

@@ -1,0 +1,40 @@
+.orders-container {
+  width: 100%;
+  padding: 2rem 1rem;
+}
+table,
+th,
+td {
+  text-align: center;
+}
+.new {
+  background-color: green;
+  width: fit-content;
+  padding: 5px 20px;
+  color: #fff;
+  border-radius: 10px;
+  font-weight: bold;
+}
+.td-new {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.new-orders {
+  position: relative;
+}
+.delete-product {
+  position: absolute;
+  width: fit-content;
+  top: 10%;
+  right: 25%;
+}
+.search-box {
+  width: 100%;
+  padding: 10px;
+  padding-top: 0;
+  margin-top: 0;
+}
+.search-box input {
+  width: 100%;
+}

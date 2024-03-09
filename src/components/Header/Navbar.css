@@ -1,0 +1,53 @@
+header {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 100vh;
+  background-color: #fff;
+  border-bottom: 1px solid #999;
+  box-shadow: -1px -1px 5px #999;
+}
+nav {
+  display: flex;
+  flex-direction: column;
+}
+nav img {
+  margin: 1rem 0 1rem 0;
+  cursor: pointer;
+  margin-inline: auto;
+}
+ul,
+li,
+li a {
+  list-style: none;
+  text-decoration: none;
+  color: #000;
+}
+nav ul {
+  display: flex;
+  flex-direction: column;
+  transition: 0.3s all;
+  width: 100%;
+  text-align: center;
+}
+li {
+  width: 200px;
+  padding: 15px 0;
+  cursor: pointer;
+  transition: 0.3s ease;
+  font-size: 17px;
+  border-bottom: 1px solid #aaa;
+}
+li:hover {
+  background-color: rgb(216, 237, 255);
+}
+.btn,
+.dropdown-toggle {
+  border: none;
+  outline: none;
+}
+.dropdown-menu li {
+  width: auto;
+  padding: 10px;
+  border-bottom: none;
+}

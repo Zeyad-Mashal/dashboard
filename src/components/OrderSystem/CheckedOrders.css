@@ -1,0 +1,22 @@
+.checked {
+  background-color: blue;
+  width: fit-content;
+  padding: 5px 20px;
+  color: #fff;
+  border-radius: 10px;
+  font-weight: bold;
+}
+.td-checked {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search-box {
+  width: 100%;
+  padding: 10px;
+  padding-top: 0;
+  margin-top: 0;
+}
+.search-box input {
+  width: 100%;
+}

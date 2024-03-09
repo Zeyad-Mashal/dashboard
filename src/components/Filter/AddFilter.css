@@ -1,0 +1,103 @@
+.filter-container {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-top: 1rem;
+  flex-direction: column;
+  position: relative;
+}
+.addFillter-box,
+.filter-input-udpate {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 4px 5px 5px #999;
+  margin-bottom: 3rem;
+  width: 600px;
+  text-align: center;
+}
+.filter-input {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.filter-input-udpate {
+  position: absolute;
+}
+.filter-input .filter-en,
+.filter-input .filter-ar,
+.filter-input-udpate input {
+  width: 100%;
+  padding: 0.7rem;
+  border: 1px solid #999;
+  border-radius: 10px;
+  font-size: 18px;
+  outline: none;
+}
+.filter-input-udpate input {
+  margin: 2rem 0 2rem 0;
+}
+.filter-input .filter-en {
+  margin: 2rem 0 2.5rem 0;
+}
+.filter-input .filter-ar {
+  margin-top: 1rem;
+}
+.filter-input button,
+.filter-input-udpate button {
+  width: fit-content;
+  margin-inline: auto;
+  padding: 12px 30px;
+  border: 1px solid #999;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+.filter-input button:hover,
+.filter-input-udpate button:nth-of-type(1):hover {
+  background-color: green;
+  color: #fff;
+  scale: 1.02;
+}
+.filter-input-udpate button:nth-of-type(2) {
+  margin-right: 2rem;
+}
+.filter-input-udpate button:nth-of-type(2):hover {
+  background-color: rgb(223, 0, 0);
+  color: #fff;
+  scale: 1.02;
+}
+.filter-view {
+  text-align: center;
+  width: 600px;
+}
+.filter-en {
+  margin-top: 0;
+}
+table {
+  width: 100%;
+  font-size: 16px;
+  text-align: center;
+}
+tr,
+th {
+  font-size: 20px;
+}
+.update-filter-btn,
+.delete-filter-btn {
+  padding: 5px 15px;
+  border: 1px solid #999;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.update-filter-btn {
+  background-color: green;
+  color: #fff;
+}
+.delete-filter-btn {
+  background-color: rgb(223, 0, 0);
+  color: #fff;
+}
